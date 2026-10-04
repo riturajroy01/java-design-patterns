@@ -1,12 +1,13 @@
-package Client;
+package behavioral_design_pattern.strategy.Client;
 
-import core.*;
-import strategy.PaymentStrategy;
-import strategy.PaypalPaymentStrategy;
-import strategy.PayuPaymentStrategy;
-import strategy.RevolutPaymentStrategy;
 
-public class PaymentCLient {
+import behavioral_design_pattern.strategy.core.*;
+import behavioral_design_pattern.strategy.strategy.PaymentStrategy;
+import behavioral_design_pattern.strategy.strategy.PaypalPaymentStrategy;
+import behavioral_design_pattern.strategy.strategy.PayuPaymentStrategy;
+import behavioral_design_pattern.strategy.strategy.RevolutPaymentStrategy;
+
+public class PaymentClient {
     public static void main(String[] args) {
         // braintree and paypal both have same strategy that is PaypalPaymentStrategy. But they are different payment methods. So we can use the same strategy for both payment methods.
         // we do not need to create a new strategy for braintree. We can use the same strategy for both payment methods. This will avoid dulplication of code and will make the code more maintainable.

@@ -1,6 +1,8 @@
-package core;
+package behavioral_design_pattern.strategy.core;
 
-import strategy.PaymentStrategy;
+
+
+import behavioral_design_pattern.strategy.strategy.PaymentStrategy;
 
 import java.math.BigDecimal;
 
