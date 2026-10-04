@@ -1,4 +1,4 @@
 package structural_design_pattern.decorator;
 
-public class Decorstor {
+public class Decorator {
 }

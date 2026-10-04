@@ -1,4 +1,4 @@
-package behavioral_design_pattern.strategy.Client;
+package behavioral_design_pattern.strategy.client;
 
 
 import behavioral_design_pattern.strategy.core.*;
